@@ -1,0 +1,101 @@
+body{
+    margin: 0;
+    background-color: #eedae5;
+}
+.recipiente{
+    max-width: 1920px;
+    width: 100%;
+}
+header{
+    position: relative;
+    top: 0;
+    height: auto;
+    width: 100%;
+} 
+nav{ 
+    position: fixed;
+    top: 0;
+    height: 180px;
+    width: 100%;
+    z-index: 1;
+    background-color: #F89FC7;
+    border-bottom: 1px  solid #ccc;
+}
+nav:after {
+    clear: both;
+    content: "";
+    display: block;
+}
+.nav-recipiente{
+    max-width: 1200px;
+    position: relative;
+    margin-right: auto;
+    margin-left: auto;
+}
+#logo {
+    width: 150px;
+    height: 150px;
+    margin-top: 15px;
+}
+.nav-recipiente ul {
+    float: right;
+    height: 200px;
+    line-height: 170px;
+    margin: 0px;
+}
+.nav-recipiente li{
+    list-style: none;
+    float: left;
+    margin: 0 99px;
+}
+
+.nav-recipiente li a {
+ text-decoration: none;
+ color: #666;
+ transition: .5s;
+}
+.nav-recipiente li a:hover {
+    color: #3381f3;
+}
+.recipiente2{
+    padding-top: 200px;
+    margin-left: 110px;
+}
+p{
+    font-size: 60px;
+    color: white;
+    margin-top: 5px;
+}
+img {
+    height: 250px;
+    width: 310px;
+    border: 5px solid #F89FC7;
+}
+
+span{
+    margin-left: 10px;
+    margin-top: 20px;
+    display: table-cell;
+    float: right;
+    width: 300px;
+    margin-right: 750px;
+    margin-top: 130px;
+    font-size: 20px;
+    text-shadow: 5px 5px 5px #e2488d;
+
+}
+section, h1{
+    text-align: center;
+    text-shadow: 5px 5px 5px #e2488d;
+}
+button{
+    border-radius: 5%;
+    background-color: pink;
+    margin-left: 20px;
+}
+button:hover{
+    background-color: #e2488d;
+}
+.button-as-link2{
+    margin-left: 730px;
+}
